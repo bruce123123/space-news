@@ -34,7 +34,7 @@ class App extends Component {
             <Link to="/">Nation Park List </Link>
           </nav>
           <Route exact path="/" render={() => (
-            <ParkList parkList={this.state.parkList} />
+            <ArticleList parkList={this.state.parkList} />
           )} />
           <Route path="/park/:id" render={(routerProps) => (
             <ParkDetail 
