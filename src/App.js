@@ -27,7 +27,18 @@ class App extends Component {
     console.log(this.state.articleList);
     return (
         <div>
-          <h1>App.js</h1>
+          <nav>
+            <Link to="/">Space News List</Link>
+          </nav>
+          <Route exact path="/" render={() => (
+            <ArticleList articleList={this.state.articleList} />
+          )} />
+          <Route path="/article/:id" render={(routerProps) => (
+          <ArticleDetail 
+          articleList={this.state.articleList}
+          {...routerProps}
+          />
+          )} />
         </div>
     );
   }
