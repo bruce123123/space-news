@@ -7,7 +7,7 @@ const ArticleDetail = props => {
     // console.log(foundArticle)
     return (
         <div>
-            <div className="image-text-wrapper">
+            <div className="neal-text">
                 <img src={foundArticle.imageUrl} alt="Article" />
                 <h2 className="image-text">{foundArticle.title}</h2>
                 </div>
@@ -16,9 +16,8 @@ const ArticleDetail = props => {
             </div>
         </div>
 
-        
+
     )
 }
 
 export default ArticleDetail
-

@@ -3,7 +3,9 @@
 ### Project Plan
 Project 3 is building an app with React and API. We decided to use [https://thespacedevs.com/snapi] ![api example](./public/APIinfo.png)
 
-We decided to use the react-router-lab (National Park Service) homework as a template.
+We decided to use the react-router-lab (National Park Service) homework and NASA.gov as a template.
+
+![Routes](./public/routes.png)
 
 App.js
 * loading API info into *articleList*
@@ -23,16 +25,22 @@ ArticleDetail.js
 Here will be the published project.
 
 ### MVP
-
+A basic website listing Article components from API. You can click details to see the summary and a link to the website.
 
 ### Planned Features
-add another API?
+* Add the Blogs and Reports API.
+* Add more style to make the page more like NASA.gov
+* Dynamic background
 
 ### Technology Used
+* React
+* Axios
 
 ### Example Code
 
 ### Issues and Resolutions
-![CORS-1](./public/CORS-1.png) Neal received this error when trying to load the API data. Leo recommended a CORS extension which seemed to resolve the error, but Neal was unable to see the array data in the console. ![CORS-2](.public/CORS-2.png) He found a setting in zscaler that was causing the issue ![zscaler](.public/zscaler.png)
+![CORS-1](./public/CORS-1.png) Neal received this error when trying to load the API data. Leo recommended a CORS extension which seemed to resolve the error, but Neal was unable to see the array data in the console. ![CORS-2](./public/CORS-2.png) He found a setting in zscaler that was causing the issue ![zscaler](./public/zscaler.png)
+
+issue with
 
 ### Additional Comments

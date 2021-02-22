@@ -6,9 +6,17 @@ nav, nav a {
   text-decoration: none;
   font-size: 30px;
   padding: 1%;
-  
+
 }
-​ 
+
+body {
+  background: grey;
+}
+
+.neal-text {
+  color: orange;
+}
+​
 ​ .image-text {
   position: absolute;
   right: 0;
