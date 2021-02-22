@@ -1,26 +1,38 @@
-## Project Details
-API - https://spaceflightnewsapi.net/api/v2/articles
+## Project 3: Space News
+
+### Project Plan
+Project 3 is building an app with React and API. We decided to use [https://thespacedevs.com/snapi] ![api example](./public/APIinfo.png)
+
+We decided to use the react-router-lab (National Park Service) homework as a template.
+
 App.js
 * loading API info into *articleList*
 * passing *articleList* as a prop to *articleList*
 * using *nav* to hold link to *ArticleList*
-* *Link to="/"*
-* *Route exact path="/"*
 
 ArticleList.js
+* *Link to="/"*
 * mapping through *articleList* and displaying *article*
 
 ArticleDetail.js
 * route *Route path="/article/:id"*
 
-
-
-
-## Project 3: Space News
-
-project plan here
-
 ### Project Links
 
 [Here is the project repository.](https://github.com/bruce123123/space-news)
-Here is the published project.
+Here will be the published project.
+
+### MVP
+
+
+### Planned Features
+add another API?
+
+### Technology Used
+
+### Example Code
+
+### Issues and Resolutions
+![CORS-1](./public/CORS-1.png) Neal received this error when trying to load the API data. Leo recommended a CORS extension which seemed to resolve the error, but Neal was unable to see the array data in the console. ![CORS-2](.public/CORS-2.png) He found a setting in zscaler that was causing the issue ![zscaler](.public/zscaler.png)
+
+### Additional Comments
