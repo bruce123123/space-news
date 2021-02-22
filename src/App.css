@@ -5,13 +5,13 @@ nav, nav a {
   text-decoration: none;
   font-size: 30px;
 }
-​ 
-​ .image-text {
+
+/* .image-text {
   position: absolute;
   right: 0;
   left: 5%;
   bottom: 0;
-  color: orange;
+  color: white;
   max-width: 100%;
 }
 
@@ -23,7 +23,7 @@ nav, nav a {
   width: 100vw;
   height: auto;
   object-fit: cover;
-}
+} */
 
 .arrange-list {
   display: inline-block;
