@@ -7,13 +7,16 @@ const ArticleDetail = props => {
     // console.log(foundArticle)
     return (
         <div>
-            <div className="neal-text">
-                <img src={foundArticle.imageUrl} alt="Article" />
+            <div className="image-text-wrapper">
                 <h2 className="image-text">{foundArticle.title}</h2>
-                </div>
+                <img src={foundArticle.imageUrl} alt="Article" />
+            </div>
             <div className="description">
                 <h2>{foundArticle.summary}</h2>
             </div>
+            <a href={foundArticle.url}>
+              <button className="myButton">Read More</button>
+            </a>          
         </div>
 
 
