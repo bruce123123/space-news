@@ -5,20 +5,20 @@ nav, nav a {
   text-decoration: none;
   font-size: 30px;
 }
-​
-.image-text {
+​ 
+​ .image-text {
   position: absolute;
   right: 0;
   left: 5%;
   bottom: 0;
-  color: white;
+  color: orange;
   max-width: 100%;
 }
-​
+
 .image-text-wrapper {
   position: relative;
 }
-​
+
 .image-text-wrapper img {
   width: 100vw;
   height: auto;
