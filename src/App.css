@@ -9,19 +9,7 @@ nav, nav a {
 
 }
 
-body {
-  background: grey;
-}
-
-<<<<<<< HEAD
-.neal-text {
-  color: orange;
-}
-​
-​ .image-text {
-=======
-/* .image-text {
->>>>>>> betsy
+.image-text {
   position: absolute;
   right: 0;
   left: 5%;
@@ -38,7 +26,7 @@ body {
   width: 100vw;
   height: auto;
   object-fit: cover;
-} */
+}
 
 .arrange-list {
   display: inline-block;
