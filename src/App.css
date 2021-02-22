@@ -1,9 +1,12 @@
 
 nav, nav a {
+  width: 100%;
   background: black;
   color: white;
   text-decoration: none;
   font-size: 30px;
+  padding: 1%;
+  
 }
 ​
 .image-text {
@@ -50,12 +53,12 @@ nav, nav a {
 
 .list-image-text{
   position: absolute;
-  right: 5%;
-  left: 5%;
   bottom: 0;
-  color: white;
+  color: rgb(16, 15, 15);
   max-width: 100%;
   font-size: 16px;
+  padding: 2%;
+  background-color: wheat;
 }
 
 .list-image-text-wrapper {
