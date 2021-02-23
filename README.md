@@ -5,7 +5,8 @@ Project 3 is building an app with React and API. We decided to use [https://thes
 
 We decided to use the react-router-lab (National Park Service) homework and NASA.gov as a template.
 
-![Routes](./public/routes.png)
+![Routes](./planning/routes.png)
+![Wireframe](./planning/wireframe.png)
 
 App.js
 * loading API info into *articleList*
@@ -24,13 +25,8 @@ ArticleDetail.js
 [Here is the project repository.](https://github.com/bruce123123/space-news)
 Here will be the published project.
 
-### MVP
-A basic website listing Article components from API. You can click details to see the summary and a link to the website.
-
-### Planned Features
-* Add the Blogs and Reports API.
-* Add more style to make the page more like NASA.gov
-* Dynamic background
+### Technical Goals
+![Technical Goals](./planning/technicalgoals.md)
 
 ### Technology Used
 * React
@@ -41,6 +37,9 @@ A basic website listing Article components from API. You can click details to se
 ### Issues and Resolutions
 ![CORS-1](./public/CORS-1.png) Neal received this error when trying to load the API data. Leo recommended a CORS extension which seemed to resolve the error, but Neal was unable to see the array data in the console. ![CORS-2](./public/CORS-2.png) He found a setting in zscaler that was causing the issue ![zscaler](./public/zscaler.png)
 
-issue with
+We had some issues with copying CSS styles from another project, we ended up deleting and retyping most of the CSS file.
+
+### User Stories
+![User Stories](./planning/userstories.md)
 
 ### Additional Comments

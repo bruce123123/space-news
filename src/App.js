@@ -34,7 +34,7 @@ class App extends Component {
       apiDataLoaded: true
     })
   }
-  
+
   render() {
     return (
         <div>
@@ -75,7 +75,7 @@ class App extends Component {
                 )} />
               </div>
               ) :
-              <p>Article Data Not Loaded</p>
+              <p>Data Not Loaded</p>
             }
           </div>
         </div>
