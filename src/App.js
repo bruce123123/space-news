@@ -37,7 +37,7 @@ class App extends Component {
 
   render() {
     return (
-        <div>
+        <div className="parent">
           <nav>
             <Link to="/">News Articles</Link>
             <Link to="/blog">Blog</Link>
