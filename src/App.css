@@ -24,15 +24,15 @@ nav, nav a {
 }
 
 .image-text-wrapper img {
-  /* width: 95vw; */
+  width: 95vw;
   /* height: auto;
   margin-right: 15px;
   margin-top: 15px; */
 
 
-  width: 550px;
+  /* width: 550px;
   height: 550px;
-  object-fit: cover; 
+  object-fit: cover;  */
 }
 
 .arrange-list {
