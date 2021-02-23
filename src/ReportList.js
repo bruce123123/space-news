@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 const ReportList = props => {
   return(
     <div>
-    {props.reportList.map(report => (
-      <div className="arrange-list" key={report.id}>
+    {props.reportList.map(reports => (
+      <div className="arrange-list" key={reports.id}>
         <div className="list-image-text-wrapper">
-          <Link to={`/report/${report.id}`}>
-            <img src={report.imageUrl} alt="image" />
-            <h2 className="list-image-text">{report.title}</h2>
+          <Link to={`/reports/${reports.id}`}>
+            <img src={reports.imageUrl} alt="image" />
+            <h2 className="list-image-text">{reports.title}</h2>
           </Link>
         </div>
       </div>

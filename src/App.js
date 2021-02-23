@@ -7,7 +7,9 @@ import axios from 'axios';
 import ArticleList from './ArticleList';
 import ArticleDetail from './ArticleDetail';
 import BlogList from './BlogList';
+import BlogDetail from './BlogDetail';
 import ReportList from './ReportList';
+import ReportDetail from './ReportDetail';
 
 class App extends Component {
   constructor(props) {
@@ -31,10 +33,9 @@ class App extends Component {
       reportList: reportData.data,
       apiDataLoaded: true
     })
-
   }
+  
   render() {
-    console.log(this.state.blogList);
     return (
         <div>
           <nav>
@@ -54,11 +55,23 @@ class App extends Component {
                 {...routerProps}
                 />
                 )} />
-                <Route path="/blog" render={() => (
+                <Route exact path="/blog" render={() => (
                   <BlogList blogList={this.state.blogList} />
                 )} />
-                <Route path="/reports" render={() => (
+                <Route path="/blog/:id" render={(routerProps) => (
+                <BlogDetail
+                blogList={this.state.blogList}
+                {...routerProps}
+                />
+                )} />
+                <Route exact path="/reports" render={() => (
                   <ReportList reportList={this.state.reportList} />
+                )} />
+                <Route path="/reports/:id" render={(routerProps) => (
+                <ReportDetail
+                reportList={this.state.reportList}
+                {...routerProps}
+                />
                 )} />
               </div>
               ) :
