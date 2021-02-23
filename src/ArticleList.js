@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const ArticleList = props => {
-  console.log(props.articleList);
   return(
     <div>
       {props.articleList.map(article => (
