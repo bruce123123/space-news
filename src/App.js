@@ -4,6 +4,7 @@ import './App.css';
 import {Route, Link} from 'react-router-dom';
 import axios from 'axios';
 
+import Home from "./Home";
 import ArticleList from './ArticleList';
 import ArticleDetail from './ArticleDetail';
 import BlogList from './BlogList';
@@ -39,7 +40,8 @@ class App extends Component {
     return (
         <div className="parent">
           <nav>
-            <Link to="/">News Articles</Link>
+            <Link to="/">Home</Link>
+            <Link to="/articles">Articles</Link>
             <Link to="/blog">Blog</Link>
             <Link to='/reports'>Reports</Link>
           </nav>
@@ -47,9 +49,12 @@ class App extends Component {
             {this.state.apiDataLoaded ? (
               <div>
                 <Route exact path="/" render={() => (
+                  <Home />
+                )} />
+                <Route path="/articles" render={() => (
                   <ArticleList articleList={this.state.articleList} />
                 )} />
-                <Route path="/article/:id" render={(routerProps) => (
+                <Route path="/articles/:id" render={(routerProps) => (
                 <ArticleDetail
                 articleList={this.state.articleList}
                 {...routerProps}
