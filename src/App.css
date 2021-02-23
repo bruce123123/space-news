@@ -1,12 +1,7 @@
-/* .detail-container{
-  margin: 15px;
-} */
-/* body {
-  margin: 15px;
-} */
+
 nav, nav a {
   /* width: 100%; */
-  /* width: 93vw; */
+  width: 93vw;
   background: black;
   color: white;
   text-decoration: none;
