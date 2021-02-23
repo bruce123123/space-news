@@ -10,10 +10,23 @@ nav, nav a {
   color: white;
   text-decoration: none;
   font-size: 30px;
-  padding: 1%;
-  
-
+  padding-left: 50px; 
+  padding-right: 85px; 
+  border: white solid 2px;
 }
+
+nav, nav a:hover {
+  background: #8e262a;
+}
+
+nav, nav a:active {
+  background: white;
+}
+
+nav, nav a:hover {
+  display: block;
+}
+
 
 .image-text {
   position: absolute;
