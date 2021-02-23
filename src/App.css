@@ -1,7 +1,11 @@
 
+.detail-container{
+  text-align: center;
+}
+
 nav, nav a {
   /* width: 100%; */
-  width: 93vw;
+  width: 96vw;
   background: black;
   color: white;
   text-decoration: none;
@@ -16,23 +20,21 @@ nav, nav a {
   max-width: 100%;
   font-size: 16px;
   padding: 2%;
+  text-align: center;
   background-color: wheat;
 }
 
 .image-text-wrapper {
   position: relative;
+  text-align: center;
 }
 
 .image-text-wrapper img {
-  width: 95vw;
+  width: 98vw;
   height: auto;
-  margin-right: 15px;
+  margin-right: 0px;
   margin-top: 15px;
-
-
-  /* width: 550px;
-  height: 550px;
-  object-fit: cover;  */
+  text-align: center;
 }
 
 .arrange-list {
@@ -47,12 +49,13 @@ nav, nav a {
   color: white;
   width: 100px;
   height: 30px;
+  text-align: center;
 }
 
-/* .description {
+.description {
   background-color: black;
   color: white;
-} */
+}
 
 .center{
   text-align: center;
