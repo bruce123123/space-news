@@ -1,6 +1,12 @@
-
+/* .detail-container{
+  margin: 15px;
+} */
+/* body {
+  margin: 15px;
+} */
 nav, nav a {
-  width: 100%;
+  /* width: 100%; */
+  /* width: 93vw; */
   background: black;
   color: white;
   text-decoration: none;
@@ -10,11 +16,12 @@ nav, nav a {
 
 .image-text {
   position: absolute;
-  right: 0;
-  left: 5%;
   bottom: 0;
-  color: white;
+  color: rgb(16, 15, 15);
   max-width: 100%;
+  font-size: 16px;
+  padding: 2%;
+  background-color: wheat;
 }
 
 .image-text-wrapper {
@@ -22,9 +29,15 @@ nav, nav a {
 }
 
 .image-text-wrapper img {
-  width: 100vw;
-  height: auto;
-  object-fit: cover;
+  /* width: 95vw; */
+  /* height: auto;
+  margin-right: 15px;
+  margin-top: 15px; */
+
+
+  width: 550px;
+  height: 550px;
+  object-fit: cover; 
 }
 
 .arrange-list {
@@ -33,19 +46,19 @@ nav, nav a {
   width: 350px;
   height: 350px;
 }
-​
+
 .myButton {
   background: black;
   color: white;
   width: 100px;
   height: 30px;
 }
-​
-.description {
-  background: black;
+
+/* .description {
+  background-color: black;
   color: white;
-}
-​
+} */
+
 .center{
   text-align: center;
 }
