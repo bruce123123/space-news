@@ -39,6 +39,9 @@ Here will be the published project.
 
 We had some issues with copying CSS styles from another project, we ended up deleting and retyping most of the CSS file.
 
+Struggled with centering text with absolute position. Below is the solution.
+https://stackoverflow.com/questions/18147642/css-centering-absolute-positioned-text-inside-relative-parent
+    
 ### User Stories
 ![User Stories](./planning/userstories.md)
 
