@@ -3,14 +3,17 @@ nav, nav a {
   /* #title */
   width: 100%;
   background: black;
+  text-decoration: none;
   color: white;
   font-size: 30px;
   padding: 2%;
-  background: #000000;
-  background: -webkit-linear-gradient(to bottom, #000000 0%, #FFFFFF 100%);
-  background: -moz-linear-gradient(to bottom, #000000 0%, #FFFFFF 100%);
-  background: linear-gradient(to bottom, #000000 0%, #FFFFFF 100%);
-  -webkit-text-fill-color: transparent;
+  /* background: #000000; */
+  /* background: -webkit-linear-gradient(to bottom, #000000 0%, #FFFFFF 100%); */
+  /* background: -moz-linear-gradient(to bottom, #000000 0%, #FFFFFF 100%); */
+  /* background: linear-gradient(to bottom, #000000 0%, #FFFFFF 100%); */
+  /* -webkit-text-fill-color: transparent; */
+  
+  font-family: 'Titillium Web', sans-serif;
 }  
   .image-text {
   position: absolute;
