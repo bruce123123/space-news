@@ -17,34 +17,38 @@ nav, nav a {
 
 .image-text {
   position: absolute;
+  width: 99%;
+  border-radius: 5px;
+  left: 0px;
   bottom: 0;
   color: rgb(16, 15, 15);
   max-width: 100%;
-  font-size: 16px;
-  padding: 2%;
+  font-size: 14px;
+  padding: 0.5%;
   text-align: center;
   background-color: wheat;
 }
 
 .image-text-wrapper {
   position: relative;
-  text-align: center;
 }
 
 .image-text-wrapper img {
   width: 98vw;
   height: auto;
+  object-fit: cover;
   margin-right: 0px;
   margin-top: 15px;
-  text-align: center;
   border-radius: 20px;
 }
 
-.arrange-list {
-  display: inline-block;
-  margin: 10px;
-  width: 350px;
-  height: 350px;
+.description {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  /* margin-top: 5px;
+  padding-top: 0px; */
+  border-radius: 10px;
+  border: solid white 1px;
 }
 
 .myButton {
@@ -52,13 +56,17 @@ nav, nav a {
   color: white;
   width: 100px;
   height: 30px;
+  /* border: solid red 5px; */
+  margin-top: 15px;
   text-align: center;
   border-radius: 10px;
 }
 
-.description {
-  background-color: black;
-  color: white;
+.arrange-list {
+  display: inline-block;
+  margin: 10px;
+  width: 350px;
+  height: 350px;
 }
 
 .center{
