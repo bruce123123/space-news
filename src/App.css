@@ -4,14 +4,21 @@
 }
 
 nav, nav a {
-  /* width: 100%; */
-  width: 96vw;
-  background: black;
-  color: white;
-  text-decoration: none;
+  font-family: 'Titillium Web', sans-serif;
   font-size: 30px;
-  padding: 1%;
-  
+  padding: 2%;
+  background-image:
+  url(https://wallpapercave.com/wp/IpGSDFe.jpg);
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+  /* width: 100%; */
+width: 96vw;
+/* background: black; */
+/* color: white; */
+/* text-decoration: none; */
 
 }
 
