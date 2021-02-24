@@ -41,10 +41,10 @@ class App extends Component {
     return (
         <div className="parent">
           <nav>
-            <NavLink exact to="/" activeStyle={{color: "red"}}>Home</NavLink>
-            <NavLink  to="/articles" activeStyle={{color: "red"}}>News</NavLink>
-            <NavLink to="/blog" activeStyle={{color: "red"}}>Blog</NavLink>
-            <NavLink to='/reports' activeStyle={{color: "red"}}>Reports</NavLink>
+            <NavLink exact to="/" activeStyle={{color: "rgb(0, 179, 255)"}}>Home</NavLink>
+            <NavLink  to="/articles" activeStyle={{color: "rgb(0, 179, 255)"}}>News</NavLink>
+            <NavLink to="/blog" activeStyle={{color: "rgb(0, 179, 255)"}}>Blog</NavLink>
+            <NavLink to='/reports' activeStyle={{color: "rgb(0, 179, 255)"}}>Reports</NavLink>
           </nav>
           <div>
             {this.state.apiDataLoaded ? (
