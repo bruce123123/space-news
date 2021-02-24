@@ -16,7 +16,7 @@ I like to glance what is in the Space News and then get detailed information on 
 As a curious user, I would like to have an educational section/blog that is hosted by "The Science Guy"
 
 #### Story 6
-something
+Since this is science, would like to see some animation related to science
 
 #### Story 7
 I'm an amateur astronomer and I'm interested in all things space related.
@@ -25,7 +25,10 @@ I'm an amateur astronomer and I'm interested in all things space related.
 I like to follow news that is not political!
 
 #### Story 9
-something
+I would like to have a look-and-feel similiar to outer space
 
 #### Story 10
-something
+As a user of many devices, would like the page to be responsive
+
+#### Story 11
+As I navigate around the website, it should be obvious on what menu item I am viewing
