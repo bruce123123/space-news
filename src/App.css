@@ -14,8 +14,14 @@ nav, nav a {
   text-decoration: none;
   font-size: 30px;
   font-family: 'Titillium Web', sans-serif;
+<<<<<<< HEAD
   padding-left: 50px; 
   padding-right: 85px; 
+=======
+  padding-left: 50px;
+  padding-right: 85px;
+  border: white solid 2px;
+>>>>>>> neal
 }
 
 .image-text {
@@ -23,13 +29,13 @@ nav, nav a {
   width: 99%;
   border-radius: 5px;
   left: 0px;
-  bottom: 0;
+  bottom: -7px;
   color: black;
   max-width: 100%;
   font-size: 14px;
   padding: 0.5%;
   text-align: center;
-  background-color: wheat;
+  background-color: rgba(255, 255, 255);
   font-size: 16px;
   font-family: 'Titillium Web', sans-serif;
 }
@@ -79,14 +85,18 @@ nav, nav a {
 
 .list-image-text{
   position: absolute;
-  bottom: 0;
+  bottom: -6px;
   color: black;
   width: 96%;
   max-width: 100%;
   font-size: 14px;
   padding: 2%;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.7);
   font-family: 'Titillium Web', sans-serif;
+}
+
+.list-image-text-wrapper:hover .list-image-text{
+  background: rgba(255, 255, 255);
 }
 
 .list-image-text-wrapper {
@@ -97,4 +107,8 @@ nav, nav a {
   width: 350px;
   height: 350px;
   object-fit: cover;
+}
+
+body {
+  background: #000018;
 }
