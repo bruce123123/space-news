@@ -15,17 +15,24 @@ nav, nav a {
   border: white solid 2px;
 }
 
-nav, nav a:hover {
+/* nav, nav a:hover {
   background: #8e262a;
 }
 
 nav, nav a:active {
   background: white;
-}
+} */
 
-nav, nav a:hover {
+/* nav, nav a:hover {
   display: block;
-}
+} */
+
+/* nav, nav a {
+  color: #252525;
+  display: block;
+} */
+
+
 
 
 .image-text {
