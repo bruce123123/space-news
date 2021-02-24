@@ -4,6 +4,7 @@ const ArticleDetail = props => {
     const foundArticle = props.articleList.find(article => {
         return article.id === props.match.params.id;
     })
+    // console.log("FoundArticle " + fou)
 
     return (
         <div className="detail-container">
@@ -11,9 +12,9 @@ const ArticleDetail = props => {
                 <h2 className="image-text">{foundArticle.title}</h2>
                 <img src={foundArticle.imageUrl} alt="Article" />
             </div>
-            <div className="description">
+            {/* <div className="description">
                 <p>{foundArticle.summary}</p>
-            </div>
+            </div> */}
             <a href={foundArticle.url}>
               <button className="myButton">Read More</button>
             </a>

@@ -9,7 +9,6 @@
 nav, nav a {
   background-image: url(https://wallpapercave.com/wp/IpGSDFe.jpg);
   width: 96vw;
-  /* color: rgb(0, 145, 255); */
   color: white;
   text-decoration: none;
   font-size: 30px;
@@ -23,7 +22,8 @@ nav, nav a {
   width: 99%;
   border-radius: 5px;
   left: 0px;
-  bottom: -7px;
+  top: 0px;
+  /* bottom: -7px; */
   color: black;
   max-width: 100%;
   font-size: 14px;
@@ -40,7 +40,7 @@ nav, nav a {
 
 .image-text-wrapper img {
   width: 98vw;
-  height: auto;
+  height: 70%;
   object-fit: cover;
   margin-right: 0px;
   margin-top: 15px;
