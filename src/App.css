@@ -14,14 +14,8 @@ nav, nav a {
   text-decoration: none;
   font-size: 30px;
   font-family: 'Titillium Web', sans-serif;
-<<<<<<< HEAD
-  padding-left: 50px; 
-  padding-right: 85px; 
-=======
   padding-left: 50px;
   padding-right: 85px;
-  border: white solid 2px;
->>>>>>> neal
 }
 
 .image-text {
