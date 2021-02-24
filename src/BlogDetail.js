@@ -6,7 +6,7 @@ const BlogDetail = props => {
     })
 
     return (
-        <div>
+        <div className="detail-container">
             <div className="image-text-wrapper">
                 <h2 className="image-text">{foundBlog.title}</h2>
                 <img src={foundBlog.imageUrl} alt="Blog" />
