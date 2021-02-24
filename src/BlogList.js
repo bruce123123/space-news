@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const BlogList = props => {
   return(
-    <div>
+    <div className="container">
     {props.blogList.map(blog => (
       <div className="arrange-list" key={blog.id}>
         <div className="list-image-text-wrapper">

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const ReportList = props => {
   return(
-    <div>
+    <div className="container">
     {props.reportList.map(reports => (
       <div className="arrange-list" key={reports.id}>
         <div className="list-image-text-wrapper">

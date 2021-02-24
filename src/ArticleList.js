@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const ArticleList = props => {
   return(
-    <div>
+    <div className="container">
       {props.articleList.map(article => (
         <div className="arrange-list" key={article.id}>
           <div className="list-image-text-wrapper">
