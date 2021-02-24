@@ -13,7 +13,7 @@ const ReportDetail = props => {
                 <img src={foundReport.imageUrl} alt="Report" />
             </div>
             <div className="description">
-                <h2>{foundReport.summary}</h2>
+                <p>{foundReport.summary}</p>
             </div>
             <a href={foundReport.url}>
               <button className="myButton">Read More</button>

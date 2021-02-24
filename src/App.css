@@ -22,12 +22,14 @@ nav, nav a {
   border-radius: 5px;
   left: 0px;
   bottom: 0;
-  color: rgb(16, 15, 15);
+  color: black;
   max-width: 100%;
   font-size: 14px;
   padding: 0.5%;
   text-align: center;
   background-color: wheat;
+  font-size: 16px;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 .image-text-wrapper {
@@ -50,6 +52,8 @@ nav, nav a {
   padding-top: 0px; */
   border-radius: 10px;
   border: solid white 1px;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .myButton {
@@ -77,11 +81,13 @@ nav, nav a {
 .list-image-text{
   position: absolute;
   bottom: 0;
-  color: rgb(16, 15, 15);
+  color: black;
+  width: 96%;
   max-width: 100%;
-  font-size: 16px;
+  font-size: 14px;
   padding: 2%;
-  background-color: wheat;
+  background: rgba(255, 255, 255, 0.8);
+  font-family: 'Titillium Web', sans-serif;
 }
 
 .list-image-text-wrapper {
