@@ -41,6 +41,10 @@ We had some issues with copying CSS styles from another project, we ended up del
 
 Struggled with centering text with absolute position. Below is the solution.
 https://stackoverflow.com/questions/18147642/css-centering-absolute-positioned-text-inside-relative-parent
+
+React documentation used to explain how to highlight the nav menu item that is active
+https://reacttraining.com/react-router/web/api/NavLink
+
     
 ### User Stories
 ![User Stories](./planning/userstories.md)
