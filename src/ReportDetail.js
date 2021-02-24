@@ -7,7 +7,7 @@ const ReportDetail = props => {
     console.log(props.match.params.id);
     console.log(foundReport);
     return (
-        <div>
+        <div className="detail-container">
             <div className="image-text-wrapper">
                 <h2 className="image-text">{foundReport.title}</h2>
                 <img src={foundReport.imageUrl} alt="Report" />

@@ -64,13 +64,14 @@ nav, nav a {
   height: 30px;
   margin-top: 15px;
   text-align: center;
+  align-content: center;
   border-radius: 10px;
 }
 
 .arrange-list {
   display: inline-block;
   margin: 10px;
-  width: 30vw;
+  width: 350px;
   height: auto;
 }
 
