@@ -47,6 +47,10 @@ https://reacttraining.com/react-router/web/api/NavLink
 
     
 ### User Stories
+Add animated home page
+Use graphics/walper for backgrounds
+Make links stay on top of page
+Make text graphics size change with page size
 ![User Stories](./planning/userstories.md)
 
 ### Additional Comments
