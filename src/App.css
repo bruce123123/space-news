@@ -72,11 +72,12 @@ nav, nav a {
 .container {
   display: flex;
   flex-wrap: wrap;
+  margin-left: 5%;
 }
 
 .arrange-list {
   flex: 1 1 160px;
-  margin: 10px;
+  /* margin: 10px; */
 }
 
 .center{
@@ -85,11 +86,13 @@ nav, nav a {
 
 .list-image-text{
   position: absolute;
-  bottom: -6px;
-  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 6px;
+  margin: 10px;
+  width: 350px;
   color: black;
   font-size: 14px;
-  padding: 2%;
   background: rgba(255, 255, 255, 0.7);
   font-family: 'Titillium Web', sans-serif;
 }
@@ -100,6 +103,7 @@ nav, nav a {
 
 .list-image-text-wrapper {
   position: relative;
+  padding: 10px;
 }
 
 .list-image-text-wrapper img {
