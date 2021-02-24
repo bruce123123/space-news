@@ -2,21 +2,20 @@
 .detail-container{
   text-align: center;
 }
-
-body {
-  background-image: url(https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1070&q=80);
+.parent {
+  background-image: url(https://wallpapercave.com/wp/IpGSDFe.jpg);
 }
 
 nav, nav a {
-  display: flex;
-  justify-content: space-around;
+  background-image: url(https://wallpapercave.com/wp/IpGSDFe.jpg);
+  width: 96vw;
+  /* color: rgb(0, 145, 255); */
   color: white;
   text-decoration: none;
   font-size: 30px;
   font-family: 'Titillium Web', sans-serif;
-  top: 0;
-  left: 0;
-  right: 0;
+  padding-left: 50px;
+  padding-right: 85px;
 }
 
 .image-text {
@@ -40,9 +39,9 @@ nav, nav a {
 }
 
 .image-text-wrapper img {
-  width: 98vw;
-  height: auto;
-  object-fit: cover;
+  width: auto;
+  height: 80vh;
+  /* object-fit: cover; */
   margin-right: 0px;
   margin-top: 15px;
   border-radius: 20px;
@@ -65,18 +64,14 @@ nav, nav a {
   height: 30px;
   margin-top: 15px;
   text-align: center;
-  align-content: center;
   border-radius: 10px;
 }
 
-.container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .arrange-list {
-  flex: 1 1 160px;
+  display: inline-block;
   margin: 10px;
+  width: 350px;
+  height: auto;
 }
 
 .center{
@@ -86,8 +81,9 @@ nav, nav a {
 .list-image-text{
   position: absolute;
   bottom: -6px;
-  width: 100%;
   color: black;
+  width: 96%;
+  max-width: 100%;
   font-size: 14px;
   padding: 2%;
   background: rgba(255, 255, 255, 0.7);
@@ -106,4 +102,8 @@ nav, nav a {
   width: 350px;
   height: 350px;
   object-fit: cover;
+}
+
+body {
+  background: #000018;
 }
