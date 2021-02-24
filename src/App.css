@@ -2,20 +2,21 @@
 .detail-container{
   text-align: center;
 }
-.parent {
-  background-image: url(https://wallpapercave.com/wp/IpGSDFe.jpg);
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1070&q=80);
 }
 
 nav, nav a {
-  background-image: url(https://wallpapercave.com/wp/IpGSDFe.jpg);
-  width: 96vw;
-  /* color: rgb(0, 145, 255); */
+  display: flex;
+  justify-content: space-around;
   color: white;
   text-decoration: none;
   font-size: 30px;
   font-family: 'Titillium Web', sans-serif;
-  padding-left: 50px;
-  padding-right: 85px;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .image-text {
@@ -103,8 +104,4 @@ nav, nav a {
   width: 350px;
   height: 350px;
   object-fit: cover;
-}
-
-body {
-  background: #000018;
 }
