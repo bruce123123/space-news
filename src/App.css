@@ -53,6 +53,7 @@ nav, nav a {
   border-radius: 10px;
   border: solid white 1px;
   font-size: 14px;
+  text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -69,8 +70,8 @@ nav, nav a {
 .arrange-list {
   display: inline-block;
   margin: 10px;
-  width: 350px;
-  height: 350px;
+  width: 30vw;
+  height: auto;
 }
 
 .center{
