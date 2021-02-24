@@ -52,7 +52,7 @@ class App extends Component {
                 <Route exact path="/" render={() => (
                   <Home />
                 )} />
-                <Route path="/articles" render={() => (
+                <Route exact path="/articles" render={() => (
                   <ArticleList articleList={this.state.articleList} />
                 )} />
                 <Route path="/articles/:id" render={(routerProps) => (
