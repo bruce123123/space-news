@@ -47,10 +47,6 @@ https://reacttraining.com/react-router/web/api/NavLink
 
     
 ### User Stories
-Add animated home page
-Add wallpapers to back grounds
-Make menu bar stay on top of page
-Make pictures and text change size with browser size
-Make menu bar show what page your viewing
+![User Stories](./planning/userstories.md)
 
 ### Additional Comments
