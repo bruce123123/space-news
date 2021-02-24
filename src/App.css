@@ -16,7 +16,6 @@ nav, nav a {
   font-family: 'Titillium Web', sans-serif;
   padding-left: 50px;
   padding-right: 85px;
-  padding: 2%;
 }
 
 .image-text {
@@ -71,8 +70,8 @@ nav, nav a {
 .arrange-list {
   display: inline-block;
   margin: 10px;
-  width: 350px;
-  height: 350px;
+  width: 30vw;
+  height: auto;
 }
 
 .center{
