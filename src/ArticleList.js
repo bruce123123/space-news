@@ -7,7 +7,7 @@ const ArticleList = props => {
       {props.articleList.map(article => (
         <div className="arrange-list" key={article.id}>
           <div className="list-image-text-wrapper">
-            <Link to={`/article/${article.id}`}>
+            <Link to={`/articles/${article.id}`}>
               <img src={article.imageUrl} alt="image" />
               <h2 className="list-image-text">{article.title}</h2>
             </Link>
