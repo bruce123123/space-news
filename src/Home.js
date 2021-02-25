@@ -4,16 +4,14 @@ import './Home.css';
 
 const Home = props => {
   return(
-    <div className='title'>
-    <span>Space News</span>
-    <div id='stars'>
-      <div id='stars2'>
-        <div id='stars3'>
-          </div>
-        </div>
+    <div>
+      <div id='stars'></div>
+      <div id='stars2'></div>
+      <div id='stars3'></div>
+      <div className='title'>
+        <span>Space News</span>
       </div>
     </div>
-
   )
 }
 

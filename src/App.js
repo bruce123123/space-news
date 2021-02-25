@@ -45,6 +45,7 @@ class App extends Component {
             <NavLink  to="/articles" activeStyle={{color: "rgb(0, 179, 255)"}}>News</NavLink>
             <NavLink to="/blog" activeStyle={{color: "rgb(0, 179, 255)"}}>Blog</NavLink>
             <NavLink to='/reports' activeStyle={{color: "rgb(0, 179, 255)"}}>Reports</NavLink>
+            <audio src="music.mp3" controls autoplay="true" muted="true" loop="true"></audio>
           </nav>
           <div>
             {this.state.apiDataLoaded ? (

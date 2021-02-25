@@ -15,7 +15,7 @@ const ArticleDetail = props => {
             {/* <div className="description">
                 <p>{foundArticle.summary}</p>
             </div> */}
-            <a href={foundArticle.url}>
+            <a href={foundArticle.url} target="_blank">
               <button className="myButton">Read More</button>
             </a>
         </div>
