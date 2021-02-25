@@ -4,7 +4,6 @@ const ArticleDetail = props => {
     const foundArticle = props.articleList.find(article => {
         return article.id === props.match.params.id;
     })
-    // console.log("FoundArticle " + fou)
 
     return (
         <div className="detail-container">
