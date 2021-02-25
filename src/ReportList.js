@@ -8,7 +8,7 @@ const ReportList = props => {
       <div className="list-arrange" key={reports.id}>
         <div className="list-image-text-wrapper">
           <Link to={`/reports/${reports.id}`}>
-            <img src={reports.imageUrl} alt="image" />
+            <img src={reports.imageUrl} onError={(e) => e.target.src=".././images-error.png"} alt="image" />
             <h2 className="list-image-text">{reports.title}</h2>
           </Link>
         </div>
