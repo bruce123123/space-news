@@ -12,9 +12,9 @@ const ArticleDetail = props => {
                 <h2 className="image-text">{foundArticle.title}</h2>
                 <img src={foundArticle.imageUrl} alt="Article" />
             </div>
-            {/* <div className="description">
+            <div className="description">
                 <p>{foundArticle.summary}</p>
-            </div> */}
+            </div>
             <a href={foundArticle.url} target="_blank">
               <button className="myButton">Read More</button>
             </a>
