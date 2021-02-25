@@ -23,7 +23,7 @@ ArticleDetail.js
 ### Project Links
 
 [Here is the project repository.](https://github.com/bruce123123/space-news)
-Here will be the published project.
+Here will be the published project: http://space-news-shivering-chess.surge.sh/
 
 ### Technical Goals
 ![Technical Goals](./planning/technicalgoals.md)
