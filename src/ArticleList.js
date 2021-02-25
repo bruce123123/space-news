@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 const ArticleList = props => {
   return(
-    <div className="container">
+    <div className="list-container">
       {props.articleList.map(article => (
-        <div className="arrange-list" key={article.id}>
+        <div className="list-arrange" key={article.id}>
           <div className="list-image-text-wrapper">
             <Link to={`/articles/${article.id}`}>
               <img src={article.imageUrl} alt="image" />

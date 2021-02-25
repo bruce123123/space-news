@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 const BlogList = props => {
   return(
-    <div className="container">
+    <div className="list-container">
     {props.blogList.map(blog => (
-      <div className="arrange-list" key={blog.id}>
+      <div className="list-arrange" key={blog.id}>
         <div className="list-image-text-wrapper">
           <Link to={`/blog/${blog.id}`}>
             <img src={blog.imageUrl} alt="image" />

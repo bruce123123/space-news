@@ -7,18 +7,16 @@ const ReportDetail = props => {
     console.log(props.match.params.id);
     console.log(foundReport);
     return (
-        <div className="detail-container">
-            <div className="image-text-wrapper">
-                <h2 className="image-text">{foundReport.title}</h2>
-                <img src={foundReport.imageUrl} alt="Report" />
-            </div>
-            <div className="description">
-                <p>{foundReport.summary}</p>
-            </div>
-            <a href={foundReport.url} target="_blank">
-              <button className="myButton">Read More</button>
-            </a>
+      <div className="detail-container">
+        <h2 className="detail-title">{foundReport.title}</h2>
+        <img className="detail-image" src={foundReport.imageUrl} alt="Report" />
+        <div className="detail-description">
+          <p>{foundReport.summary}</p>
         </div>
+        <a href={foundReport.url} target="_blank">
+          <button className="detail-link">Read More</button>
+        </a>
+      </div>
     )
 }
 

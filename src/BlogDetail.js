@@ -6,18 +6,16 @@ const BlogDetail = props => {
     })
 
     return (
-        <div className="detail-container">
-            <div className="image-text-wrapper">
-                <h2 className="image-text">{foundBlog.title}</h2>
-                <img src={foundBlog.imageUrl} alt="Blog" />
-            </div>
-            <div className="description">
-                <p>{foundBlog.summary}</p>
-            </div>
-            <a href={foundBlog.url} target="_blank">
-              <button className="myButton">Read More</button>
-            </a>
+      <div className="detail-container">
+        <h2 className="detail-title">{foundBlog.title}</h2>
+        <img className="detail-image" src={foundBlog.imageUrl} alt="Report" />
+        <div className="detail-description">
+          <p>{foundBlog.summary}</p>
         </div>
+        <a href={foundBlog.url} target="_blank">
+          <button className="detail-link">Read More</button>
+        </a>
+      </div>
     )
 }
 
