@@ -37,6 +37,11 @@ class App extends Component {
     })
   }
 
+  noPicture = (props) => {
+    console.log("no picture");
+
+  }
+
   render() {
     return (
         <div className="parent">
@@ -45,7 +50,7 @@ class App extends Component {
             <NavLink  to="/articles" activeStyle={{color: "rgb(0, 179, 255)"}}>News</NavLink>
             <NavLink to="/blog" activeStyle={{color: "rgb(0, 179, 255)"}}>Blog</NavLink>
             <NavLink to='/reports' activeStyle={{color: "rgb(0, 179, 255)"}}>Reports</NavLink>
-            <audio src="music.mp3" controls autoplay="true" muted="true" loop="true"></audio>
+            <audio src="music.mp3" controls autoPlay={true} muted={true} loop={true}></audio>
           </nav>
           <div className="main">
             {this.state.apiDataLoaded ? (
@@ -54,7 +59,7 @@ class App extends Component {
                   <Home />
                 )} />
                 <Route exact path="/articles" render={() => (
-                  <ArticleList articleList={this.state.articleList} />
+                  <ArticleList articleList={this.state.articleList} noPicture={this.noPicture}/>
                 )} />
                 <Route path="/articles/:id" render={(routerProps) => (
                 <ArticleDetail
