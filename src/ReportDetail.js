@@ -15,7 +15,7 @@ const ReportDetail = props => {
             <div className="description">
                 <p>{foundReport.summary}</p>
             </div>
-            <a href={foundReport.url}>
+            <a href={foundReport.url} target="_blank">
               <button className="myButton">Read More</button>
             </a>
         </div>
