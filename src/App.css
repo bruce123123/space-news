@@ -1,11 +1,21 @@
 
 .detail-container{
   text-align: center;
+  padding-top: 20px;
 }
 
-nav, nav a {
+nav {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  margin-top: -10px;
+  background-image: url(https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1370&q=80);
+}
+
+nav a{
   color: white;
   text-decoration: none;
   font-size: 30px;
@@ -74,6 +84,7 @@ nav, nav a {
 
 .arrange-list {
   flex: auto;
+  margin-top: 60px;
 }
 
 .center{
