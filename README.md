@@ -20,6 +20,15 @@ ArticleList.js
 ArticleDetail.js
 * route *Route path="/article/:id"*
 
+### Project collaboration for Git Workflow
+1. git checkout master (take you to the master branch)
+2. git pull origin(link to prod repository)  master(branch) - (to get the most recent repository changes)
+3. git merge hotfix(branch_dev) - (to merge change for dev branch to master branch)
+4. git push origin master (push master branch to origin
+    * If you are not the last person to merge, first do steps 1 and 2 before creating a branch
+5. git branch -d (delete) betsy (delete branch)
+6. git checkout -b betsy (recreate betsy branch)
+
 ### Project Links
 
 [Here is the project repository.](https://github.com/bruce123123/space-news)
