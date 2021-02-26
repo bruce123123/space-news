@@ -55,12 +55,14 @@ React documentation used to explain how to highlight the nav menu item that is a
 https://reacttraining.com/react-router/web/api/NavLink
 
 Encountered 404 "File not found" error while loading an image from the API.
+
 BEFORE IMAGE
+
 ![404 File Not Found](./public/no-image.png)
 AFTER IMAGE
+
 ![404 File Not Found - Fixed](./public/no-image-fix.png)
 
-    
+
 ### User Stories
 ![User Stories](./planning/userstories.md)
-
