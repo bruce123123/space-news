@@ -23,6 +23,7 @@ ArticleDetail.js
 ### Project Links
 
 [Here is the project repository.](https://github.com/bruce123123/space-news)
+
 [Here is the published project.](http://space-news.surge.sh/)
 
 ### Technical Goals
@@ -44,7 +45,11 @@ See below Issue -  Encountered 404 "File not found" error while loading an image
 
 
 ### Issues and Resolutions
-![CORS-1](./public/CORS-1.png) Neal received this error when trying to load the API data. Leo recommended a CORS extension which seemed to resolve the error, but Neal was unable to see the array data in the console. ![CORS-2](./public/CORS-2.png) He found a setting in zscaler that was causing the issue ![zscaler](./public/zscaler.png)
+![CORS-1](./public/CORS-1.png) Neal received this error when trying to load the API data. Leo recommended a CORS extension which seemed to resolve the error, but Neal was unable to see the array data in the console.
+
+![CORS-2](./public/CORS-2.png) He found a setting in zscaler that was causing the issue
+
+![zscaler](./public/zscaler.png)
 
 We had some issues with copying CSS styles from another project, we ended up deleting and retyping most of the CSS file.
 
